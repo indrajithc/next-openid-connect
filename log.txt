@@ -1,0 +1,20 @@
+
+> next-openid-connect@0.1.0 dev
+> next dev
+
+   the --inspect option was detected, the Next.js router server should be inspected at port 9230.
+  ▲ Next.js 14.2.3
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 3s
+ ○ Compiling /_error ...
+ ✓ Compiled /api/auth/callback in 929ms (554 modules)
+ ✓ Compiled (570 modules)
+ GET /_next/static/webpack/a8691ec03e9a726c.webpack.hot-update.json 404 in 1293ms
+ GET /api/auth/callback?code=z6wyNXAUYyPS0z3Tmwb_9Oln16xE8KCcw5cNtx8KUABgb&state=eyJyZWRpcmVjdFVyaSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9hcGkvYXV0aC9jYWxsYmFjayJ9%3A1sETng%3AyqtfbE-bJkGRPOXx3TL7NwwHsBtbXMtxG7w8tl5w0dk 200 in 654ms
+ GET /api/auth/callback?code=z6wyNXAUYyPS0z3Tmwb_9Oln16xE8KCcw5cNtx8KUABgb&state=eyJyZWRpcmVjdFVyaSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9hcGkvYXV0aC9jYWxsYmFjayJ9%3A1sETng%3AyqtfbE-bJkGRPOXx3TL7NwwHsBtbXMtxG7w8tl5w0dk 500 in 4321ms
+ GET /api/auth/callback?code=z6wyNXAUYyPS0z3Tmwb_9Oln16xE8KCcw5cNtx8KUABgb&state=eyJyZWRpcmVjdFVyaSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9hcGkvYXV0aC9jYWxsYmFjayJ9%3A1sETng%3AyqtfbE-bJkGRPOXx3TL7NwwHsBtbXMtxG7w8tl5w0dk 500 in 2076ms
+ GET /api/auth/callback?code=z6wyNXAUYyPS0z3Tmwb_9Oln16xE8KCcw5cNtx8KUABgb&state=eyJyZWRpcmVjdFVyaSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9hcGkvYXV0aC9jYWxsYmFjayJ9%3A1sETng%3AyqtfbE-bJkGRPOXx3TL7NwwHsBtbXMtxG7w8tl5w0dk 500 in 845ms
+[?25h
