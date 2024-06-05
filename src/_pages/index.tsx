@@ -21,7 +21,7 @@ export default function Home() {
   const { authURL, loading: isLoadingExternalAuth } = useSaleorExternalAuth({
     saleorURL: "https://store-tevnzhdd.saleor.cloud/graphql/",
     provider: ExternalProvider.OpenIDConnect,
-    redirectURL: "http://localhost:3000z/api/auth/callback",
+    redirectURL: "http://localhost:3000/api/auth/callback/azure-ad-b2c",
   });
 
   const { signOut } = useSaleorAuthContext();

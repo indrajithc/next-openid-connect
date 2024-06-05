@@ -1,11 +1,7 @@
-"use client"
 import { useSaleorAuthContext, useSaleorExternalAuth } from "@saleor/auth-sdk/react";
 import { ExternalProvider } from "@saleor/auth-sdk";
 import Link from "next/link";
 import { gql, useQuery } from "@apollo/client";
-
-const saleorApiUrl = "https://store-tevnzhdd.saleor.cloud/graphql/";
-
 
 export default function Home() {
   const {
@@ -23,9 +19,9 @@ export default function Home() {
     }
   `);
   const { authURL, loading: isLoadingExternalAuth } = useSaleorExternalAuth({
-    saleorURL: saleorApiUrl,
+    saleorURL: "https://store-tevnzhdd.saleor.cloud/graphql/",
     provider: ExternalProvider.OpenIDConnect,
-    redirectURL: "http://localhost:3000/api/auth/callback",
+    redirectURL: "http://localhost:3000/api/auth/callback/azure-ad-b2c",
   });
 
   const { signOut } = useSaleorAuthContext();
