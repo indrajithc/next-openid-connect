@@ -57,7 +57,7 @@ const body = new URLSearchParams({
     'client_id': process.env.AZURE_AD_B2C_CLIENT_ID,
     'scope': 'openid profile email offline_access',
     'code':code, 
-    'redirect_uri': 'https://9217-202-191-67-226.ngrok-free.app/api/auth/callback/azure-ad-b2c',
+    'redirect_uri': process.env.NEXTAUTH_URL +'/api/auth/callback/azure-ad-b2c',
     'client_secret': process.env.AZURE_AD_B2C_CLIENT_SECRET
 });
 
